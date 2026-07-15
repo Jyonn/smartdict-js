@@ -8,6 +8,6 @@ await build({
   outfile: "./dist/smartdict.browser.js",
   sourcemap: true,
   banner: {
-    js: "/* smartdict-js v0.5.0 */"
+    js: "/* smartdict-js v0.5.1 */"
   }
 });

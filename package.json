@@ -1,6 +1,6 @@
 {
   "name": "smartdict-js",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "JavaScript port of smartdict for resolving typed references in nested config objects.",
   "type": "module",
   "main": "./src/index.js",

@@ -788,7 +788,7 @@ function iterativeParse(obj, iterations = 1) {
 
 const partial_parse = partialParse;
 const iterative_parse = iterativeParse;
-const version = "0.5.0";
+const version = "0.5.1";
 
 export {
   CircularReferenceError,

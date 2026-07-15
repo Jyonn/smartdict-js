@@ -4,7 +4,7 @@
 
 # smartdict-js
 
-`smartdict-js` is the JavaScript port of `smartdict` 0.5.0.
+`smartdict-js` is the JavaScript port of `smartdict` 0.5.1.
 
 It resolves `${...}` references inside nested objects and arrays while preserving
 typed defaults, nested fallback chains, and lightweight pipelines.

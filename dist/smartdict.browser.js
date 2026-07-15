@@ -1,4 +1,4 @@
-/* smartdict-js v0.5.0 */
+/* smartdict-js v0.5.1 */
 var smartdict = (() => {
   var __defProp = Object.defineProperty;
   var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
@@ -696,7 +696,7 @@ var smartdict = (() => {
   }
   var partial_parse = partialParse;
   var iterative_parse = iterativeParse;
-  var version = "0.5.0";
+  var version = "0.5.1";
   return __toCommonJS(index_exports);
 })();
 //# sourceMappingURL=smartdict.browser.js.map
