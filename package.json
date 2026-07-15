@@ -1,5 +1,5 @@
 {
-  "name": "smartdict-js",
+  "name": "smartdict",
   "version": "0.5.1",
   "description": "JavaScript port of smartdict for resolving typed references in nested config objects.",
   "type": "module",

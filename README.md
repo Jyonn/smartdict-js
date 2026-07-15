@@ -2,9 +2,9 @@
   <img src="./assets/logo.png" alt="smartdict" width="360">
 </p>
 
-# smartdict-js
+# smartdict
 
-`smartdict-js` is the JavaScript port of `smartdict` 0.5.1.
+`smartdict` is the JavaScript port of `smartdict` 0.5.1.
 
 It resolves `${...}` references inside nested objects and arrays while preserving
 typed defaults, nested fallback chains, and lightweight pipelines.
@@ -12,13 +12,13 @@ typed defaults, nested fallback chains, and lightweight pipelines.
 ## Install
 
 ```bash
-npm install smartdict-js
+npm install smartdict
 ```
 
 ## Usage
 
 ```js
-import { parse } from "smartdict-js";
+import { parse } from "smartdict";
 
 const parsed = parse({
   dataset: "Spotify Search",

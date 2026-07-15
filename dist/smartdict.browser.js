@@ -1,4 +1,4 @@
-/* smartdict-js v0.5.1 */
+/* smartdict v0.5.1 */
 var smartdict = (() => {
   var __defProp = Object.defineProperty;
   var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
