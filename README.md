@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/logo.png" alt="smartdict" width="360">
+</p>
+
 # smartdict-js
 
 `smartdict-js` is the JavaScript port of `smartdict` 0.5.0.
