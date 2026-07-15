@@ -527,6 +527,9 @@ class SmartDict {
     let componentValue = null;
 
     for (let count = 0; count < this.iterations; count += 1) {
+      // Each iterative pass should resolve against the latest expanded
+      // snapshot so generated keys become visible on the next round.
+      this.source = iterSource;
       this.cache.clear();
       componentValue = this.deepResolve(iterSource);
       iterSource = componentValue.final;

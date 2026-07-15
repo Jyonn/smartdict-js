@@ -218,6 +218,28 @@ test("iterative parse resolves multi-hop references", () => {
   assert.deepEqual(parsed, { a: "ok", b: "ok", c: "ok" });
 });
 
+test("iterative parse exposes generated keys on the next round", () => {
+  const data = {
+    x: "y",
+    "${x}": 123,
+    a: "${y}"
+  };
+
+  const firstPass = iterativeParse(data, 1);
+  const secondPass = iterativeParse(data, 2);
+
+  assert.deepEqual(firstPass, {
+    x: "y",
+    y: 123,
+    a: "${y}"
+  });
+  assert.deepEqual(secondPass, {
+    x: "y",
+    y: 123,
+    a: 123
+  });
+});
+
 test("missing references raise structured errors in strict mode", () => {
   assert.throws(
     () => parse({ a: "${missing}" }),

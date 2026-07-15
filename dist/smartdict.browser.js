@@ -475,6 +475,7 @@ var smartdict = (() => {
       let iterSource = this.source;
       let componentValue = null;
       for (let count = 0; count < this.iterations; count += 1) {
+        this.source = iterSource;
         this.cache.clear();
         componentValue = this.deepResolve(iterSource);
         iterSource = componentValue.final;
